@@ -1,0 +1,201 @@
+
+section:not(:last-of-type){
+    border-bottom: 2px solid;
+    padding-bottom: 50px;
+}
+
+
+
+
+.bg-color{
+    height: 150px;
+    width: 150px;
+    background-color: lightblue;
+}
+
+.bg-color:hover {
+background-color: purple;
+transition-duration: 2s;
+}
+
+.les_hover_02{
+}
+
+
+.height_and_width{
+    background-color: lightblue;
+
+    height: 150px;
+    width: 150px;
+}
+.height_and_width:hover{
+transition-duration: 3s;
+    height: 200px;
+    width: 500px;
+}
+
+.text:focus{
+    border: blue;
+    border-radius: 10px; 
+}
+
+.transition_04{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;  
+}
+
+.transition_04:hover{
+    background-color: tomato;
+    transition: 4s;
+}
+
+.transition_05{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+.transition_05:hover{
+    background-color: purple;
+    border-radius: 50%;
+
+   
+}
+
+.transition_06{
+    background-color: gray;
+    height: 150px;
+    width: 50px;
+    transition-duration: 3s;
+}
+
+.transition_06:active{
+   margin: 300px;
+}
+
+.transition_07{
+    height: 150px;
+    width: 50px;
+background-color: green;
+transition: 3s;
+}
+
+.transition_07:active{
+  margin: 80%;
+  transition-timing-function: ease-in;
+}
+
+
+.transition_08{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;  
+    transition: 2s;
+}
+
+.transition_09{
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+  transition: 3s;
+}
+.transition_09_enfant{
+    background-color: lightblue;
+    height: 20%;
+    width: 20%;
+}
+.transition_09_enfant:active{
+   margin: 80%;
+   background-color: red;
+  }
+
+  .transition_10{
+background-color: yellow;
+width: 150px;
+height: 150px;
+transition: 4s;
+}
+
+.transition_10:active{
+    background-color: orange;
+margin-left: 80%;    
+border-radius: 100%;
+ }
+
+.transition_10_intrus{
+background-color: blue;
+height: 50px;
+width: 50px;
+border-radius: 100%;
+transition: 4s;
+
+}
+
+.transition_10:active  .transition_10_intrus {
+    background-color: lightblue;
+    border-radius:0px;
+    margin-left: 80%;
+
+    }
+    
+
+
+/* début exo 01 les_hover_01 */
+/* fin exo 01 les_hover_01 */
+
+
+
+/* début exo 02 les_hover_02 */
+
+/* fin exo 02 les_hover_02 */
+
+
+
+/* début exo 03 les_focus_03 */
+
+
+/* fin exo 03 les_focus_03 */
+
+
+
+/* début exo 04 les transitions */
+
+/* fin exo 04 les transitions */
+
+
+
+/* début exo 05 les transitions */
+
+/* fin exo 05 les transitions */
+
+
+
+/* début exo 06 les transitions */
+
+/* fin exo 06 les transitions */
+
+
+
+/* début exo 07 les transitions */
+
+/* fin exo 07 les transitions */
+
+
+
+/* début exo 08 les transitions */
+
+/* fin exo 08 les transitions */
+
+
+
+/* début exo 09 les transitions */
+
+/* fin exo 09 les transitions */
+
+
+
+/* début exo 10 les transitions */
+
+/* fin exo 10 les transitions */
+
